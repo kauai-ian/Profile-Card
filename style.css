@@ -28,6 +28,11 @@ body {
   background-repeat: no-repeat;
   border-radius: 10% 10% 0 0;
 }
+
+.empty:hover {
+  background-size: revert;
+}
+
 .foreground {
   background-color: rgb(255, 255, 255);
   height: 300px;
@@ -40,6 +45,7 @@ h5 {
   color: hsl(227, 10%, 46%);
   padding: 0;
 }
+
 .container-items {
   width: 300px;
   margin: auto;
@@ -49,7 +55,7 @@ h5 {
 }
 
 .line {
-  border-top: 3px solid rgb(134, 130, 130);
+  border-top: 3px solid #19a2ae;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -61,13 +67,21 @@ h5 {
   margin: 0 10px;
 }
 
+.darkBold:hover {
+  color: #de6b0e;
+}
+
 .smallFont {
   font-size: small;
-  color: #19a2ae;
+  color: #8c9090;
 
   max-width: 30%;
   text-align: center;
   margin: 0 15px;
+}
+
+.smallFont:hover {
+  color: #19a2ae;
 }
 
 .column1 {
@@ -96,6 +110,10 @@ h5 {
   position: absolute;
 }
 
+.profile:hover {
+  height: 160px;
+}
+
 .header {
   height: 90px;
   width: 300px;
@@ -119,4 +137,8 @@ a {
   font-size: 30px;
   margin: 10px 30px 10px;
   text-align: center;
+}
+
+a:hover {
+  color: #de6b0e;
 }

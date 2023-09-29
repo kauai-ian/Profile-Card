@@ -1,1 +1,1 @@
-I made a profile card
+Profile card built using HTML and CSS
